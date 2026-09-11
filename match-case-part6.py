@@ -17,6 +17,9 @@ match dia:
     case 2:
         print('valor do produto R$100')
         parcela = int(input('digite quantas parcelas: '))
+         if quantidade_parcelas > 6:
+            print('Quantidade de parcelas inválida.')
+             exit()
         print(f'quantidade de parcelas:{parcela}')
         print(f'seu parcela será de: {valor / parcela}')
         print('valor total R$ 100')
