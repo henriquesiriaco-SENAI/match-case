@@ -18,5 +18,5 @@ match dia:
         print('valor do produto R$100')
         parcela = int(input('digite quantas parcelas: '))
         print(f'quantidade de parcelas:{parcela}')
-        print(valor / parcela)
+        print(f'seu parcela será de: {valor / parcela}')
         print('valor total R$ 100')
